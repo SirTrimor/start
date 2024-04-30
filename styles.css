@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0%;    
+}
+
+:root {
+    --cor--primaria: black;
+    --cor--secundaria: #EAE0D5;
+    --cor--terciaria: gold;
+    --cor--quarta: #3E2F5B;
+
+}
+
+body {
+    box-sizing: border-box;
+width: 100%;
+border: 10px;
+padding: 5px;
+    /* height: 100vh; */
+    background-color:#6E9075;
+    color:var(--cor--secundaria);
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+h1 {
+
+    color: var(--cor--secundaria);
+}
+p {
+    color: var(--cor--quarta);
+}
+button,a {
+    color:var(--cor--terciaria);
+}
+
+.t1 {
+    color:var(--cor--quarta)
+   
+}
+
+.botao1 {
+    color: var(--cor--primaria);
+
+}
+
+
+.corpinho {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    flex-direction: row;
+    gap:82px;
+  }
+
+.corpo {
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.links {
+    display: flex;
+    padding: 20px 0;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 16px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+
+.link:hover {
+    background-color: gray;
+    padding: 2%;
+    border: 2px solid var(--cor--primaria);
+    
+}
+
+.link {
+    /* background-color: black; */
+    width: 300px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 1.5rem;
+    padding: 10px 10;
+    text-decoration: none;
+    border: 2px outset var(--cor--quarta);
+}
+
+ .imagem {
+         height: 205px;
+         padding: 10px 5px;
+         justify-content: center;
+         display: flex;
+        width: 50%;
+ }
+
+ .texto__troll {
+    display: flex;
+    justify-content: center;
+    color: var(--cor--primaria);
+ }
+
+ .baixo {
+    display: flex;
+    justify-content: end;
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--cor--primaria);
+    padding: 20px;
+    font-size: 1rem;
+    text-decoration: none;
+ }
+
+ .cima {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--cor--secundaria);
+    font-size: 0.8rem;
+
+
+ }
+
+ .cimadois {
+    display: flex;
+    justify-content: end;
+    padding: 0% 2% 0% 0%;
+ }
+
+ .cimaum {
+    display: flex;
+    justify-content:start;
+    padding: 0% 0% 0% 2%;
+ }
+
+ .voltar {
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+    margin: 10%;
+ }
+
+  @media (max-width: 900px) {
+    .corpinho {
+        flex-direction: column-reverse;
+    }
+  }
